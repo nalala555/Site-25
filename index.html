@@ -1,32 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site com Pixel</title>
-
-  <!-- INÍCIO DO PIXEL DO META -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    
-    fbq('init', '695753132826426'); 
-    fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=695753132826426&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- FIM DO PIXEL DO META -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secando em Casa em 30 Dias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+      padding: 100px 20px;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      text-align: center;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .cta {
+      display: block;
+      text-align: center;
+      background: #FF5722;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 30px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
 </head>
-
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
-  <p>Esse site foi criado no GitHub Pages e já está com o Pixel do Meta instalado.</p>
+  <header>
+    <h1>Desafio: Secando em Casa em 30 Dias</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Emagreça sem sair de casa!</h2>
+    <p>Receitas detox, treinos simples e um plano completo para você eliminar até 10kg em 30 dias.</p>
+  </section>
+
+  <section class="content">
+    <h2>O que você vai encontrar:</h2>
+    <ul>
+      <li>Receitas funcionais e práticas</li>
+      <li>Plano alimentar sem dietas restritivas</li>
+      <li>Desafio completo de 30 dias</li>
+      <li>Bônus especiais para afiliados</li>
+    </ul>
+    <a class="cta" href="https://pay.kiwify.com.br/8kQ76f5?afid=CfMl7tAq" target="_blank">Quero começar agora por R$ 37,90</a>
+  </section>
+
+  <footer>
+    Página criada por Nala | Baseada no modelo Kiwify
+  </footer>
 </body>
 </html>
